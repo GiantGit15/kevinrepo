@@ -1,0 +1,108 @@
+de-DE:
+  application:
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    Author: Autor
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    # extensions/retro_blog/models/blog_post.rb
+    # extensions/retro_blog/views/blog/edit.html.erb
+    # extensions/retro_blog/views/blog/index.html.erb
+    # extensions/retro_blog/views/blog/new.html.erb
+    # extensions/retro_blog/views/blog/show.html.erb
+    Blog: Blog
+
+    # extensions/retro_blog/ext_info.rb
+    "Blog Posts": Blog-Einträge
+
+    # extensions/retro_blog/models/blog_post.rb
+    "Blog for %{project}": "Blog für %{project}"
+
+    # extensions/retro_blog/views/blog/edit.html.erb
+    Cancel: Abbrechen
+
+    # extensions/retro_blog/views/blog/_form.html.erb
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    Categories: Kategorien
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    Comment: Kommentar
+
+    # extensions/retro_blog/lib/blog_comments_controller.rb
+    "Comment was successfully created.": "Kommentar wurde erfolgreich erstellt."
+
+    # extensions/retro_blog/lib/blog_comments_controller.rb
+    "Comment was successfully deleted.": "Kommentar wurde erfolgreich gelöscht."
+
+    # extensions/retro_blog/views/blog/_comments.html.erb
+    Comments: Kommentare
+
+    # extensions/retro_blog/views/blog/_form.html.erb
+    Content: Inhalt
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    # extensions/retro_blog/views/blog/new.html.erb
+    Create: Erstellen
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    # extensions/retro_blog/views/blog/new.html.erb
+    "Create Post": "Eintrag anlegen"
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/_comment.html.erb
+    # extensions/retro_blog/views/blog/show.html.erb
+    Delete: Löschen
+
+    # extensions/retro_blog/views/blog/_comment.html.erb
+    # extensions/retro_blog/views/blog/show.html.erb
+    Edit: Bearbeiten
+
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    Email: E-Mail
+
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    # extensions/retro_blog/views/blog/_comments.html.erb
+    "Leave a comment": "Kommentar hinterlassen"
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    "My Posts": "Meine Einträge"
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    Navigation: Navigation
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    "Post was successfully created.": "Eintrag wurde erfolgreich erstellt."
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    "Post was successfully deleted.": "Eintrag wurde erfolgreich gelöscht."
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    "Post was successfully updated.": "Eintrag wurde erfolgreich aktualisiert."
+
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "Read more": Weiterlesen
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "Recent Posts": "Letzte Einträge"
+
+    # extensions/retro_blog/views/blog/index.html.erb
+    "There are no posts available.": "Es sind keine Einträge vorhanden."
+
+    # extensions/retro_blog/views/blog/_form.html.erb
+    Title: Titel
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/edit.html.erb
+    Update: Bearbeiten
+
+    # extensions/retro_blog/ext_info.rb
+    View: Anzeigen
+
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "%{count} comments": "%{count} Kommentare"
+
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "%{user} on %{date}": "%{user} am %{date}"
+

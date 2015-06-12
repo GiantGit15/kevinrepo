@@ -1,0 +1,153 @@
+fr-FR:
+  application:
+    # extensions/retro_wiki/views/wiki/edit.html.erb
+    Author: Auteur
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    "Back in time": "Revenir à une révision précédente"
+
+    # extensions/retro_wiki/views/wiki/edit.html.erb
+    # extensions/retro_wiki/views/wiki/rename.html.erb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    Cancel: Annuler
+
+    # extensions/retro_wiki/views/wiki/edit.html.erb
+    Content: Contenu
+
+    # extensions/retro_wiki/ext_info.rb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    Create: Créer
+
+    # extensions/retro_wiki/views/wiki/show.html.erb
+    "Created on %{date} by %{author}": "Créé le %{date} par %{author}"
+
+    # extensions/retro_wiki/ext_info.rb
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    # extensions/retro_wiki/views/wiki_files/_file.html.erb
+    Delete: Supprimer
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    Edit: Modifier
+
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    File: Fichier
+
+    # extensions/retro_wiki/lib/wiki_files_controller.rb
+    "File cannot be deleted.": "Le fichier ne peut être supprimé."
+
+    # extensions/retro_wiki/lib/wiki_files_controller.rb
+    "File was successfully added.": "Le fichier a bien été ajouté."
+
+    # extensions/retro_wiki/lib/wiki_files_controller.rb
+    "File was successfully deleted.": "Le fichier a bien été supprimé."
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Files: Fichiers
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    "Forward in time": "Avancer à une révision plus récente"
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Home: Accueil
+
+    # extensions/retro_wiki/ext/markup_controller.rb
+    Links: Liens
+
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Name: Nom
+
+    # extensions/retro_wiki/models/wiki_page.rb
+    "Nothing changed": "Pas de changement"
+
+    # extensions/retro_wiki/lib/wiki_controller.rb
+    "Page was successfully created.": "La page a bien été créée."
+
+    # extensions/retro_wiki/lib/wiki_controller.rb
+    "Page was successfully updated.": "La page a bien été mise à jour."
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Pages: Pages
+
+    # extensions/retro_wiki/ext/markup_controller.rb
+    References: Références
+
+    # extensions/retro_wiki/ext_info.rb
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    # extensions/retro_wiki/views/wiki/rename.html.erb
+    Rename: Renommer
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    Rollback: "Revenir en arrière"
+
+    # extensions/retro_wiki/views/wiki/edit.html.erb
+    Save: Enregistrer
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    "Show current": "Afficher la version courante"
+
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Size: Taille
+
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    "Sort alphabetically": "Trier par ordre alphabétique"
+
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    "Sort by last update": "Trier par date de dernière mise à jour"
+
+    # extensions/retro_wiki/views/wiki/edit.html.erb
+    # extensions/retro_wiki/views/wiki/rename.html.erb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    Title: Titre
+
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Type: Type
+
+    # extensions/retro_wiki/lib/wiki_files_controller.rb
+    "Unable to download file": "Impossible de télécharger le fichier"
+
+    # extensions/retro_wiki/ext_info.rb
+    Update: "Mettre à jour"
+
+    # extensions/retro_wiki/views/wiki/show.html.erb
+    "Updated on %{date} by %{author}": "Mis à jour le %{date} par %{author}"
+
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    Upload: Télécharger
+
+    # extensions/retro_wiki/views/wiki/show.html.erb
+    Version: Version
+
+    # extensions/retro_wiki/ext_info.rb
+    View: Voir
+
+    # extensions/retro_wiki/lib/wiki_controller.rb
+    # extensions/retro_wiki/models/wiki_page.rb
+    # extensions/retro_wiki/views/wiki/_header.html.erb
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    Wiki: Wiki
+
+    # extensions/retro_wiki/ext_info.rb
+    "Wiki Files": "Les fichiers du wiki"
+
+    # extensions/retro_wiki/ext_info.rb
+    "Wiki Pages": "Les pages du wiki"
+
+    # extensions/retro_wiki/models/wiki_page.rb
+    "Wiki for %{project}": "Wiki pour %{project}"
+
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    updated: "mis à jour"
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    "%{count} more": "%{count} en plus"
+

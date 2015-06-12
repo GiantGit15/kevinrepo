@@ -1,0 +1,28 @@
+<% @page_title = _('Groups') -%>
+<%= render :partial => '/admin/shared/index_header' %>
+
+<table class="record-list">
+  <thead>
+    <%= top_navigation_for @groups, _('Create a new group'), new_admin_group_path, 3, RetroAM.permission_map.size %>
+    <tr>
+      <th rowspan="2"><%=_ 'Group' -%></th>
+      <th rowspan="2"><%=_ 'Projects' -%></th>      
+      <th colspan="<%=h RetroAM.permission_map.size %>"><%=_ 'Permissions' -%></th>            
+      <th rowspan="2">&nbsp;</th>
+    </tr>
+    <tr>    
+      <% RetroAM.permission_map.values.sort.each do |resource| -%>
+        <th class="wee" title="<%=h _(resource.label) %>">
+          <%=h _(resource.label).split.map { |word| truncate(word, :length => 7, :omission => '.') }.join(' ') %>
+        </th>
+      <% end -%>
+    </tr>
+  </thead>
+
+  <%= bottom_navigation_for(@groups, 3, RetroAM.permission_map.size) %>
+
+  <tbody id="groups">
+    <%= render :partial => 'group', :collection => @groups %>
+  </tbody>
+</table>
+

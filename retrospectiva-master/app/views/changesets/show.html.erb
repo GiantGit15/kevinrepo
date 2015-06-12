@@ -1,0 +1,19 @@
+<% @page_title = _('Changeset') + ' ' + @changeset.revision -%>
+<%= page_title %>
+
+<div class="changeset">
+
+  <div class="content-header"><%= changeset_navigation(@changeset) %></div>    
+
+  <%= render :partial => 'changeset', :locals => {:changeset => @changeset }%>
+
+  <% if permitted?(:code, :browse) -%>
+    <h2><%=_ 'Affected files' -%>:</h2>
+
+    <ul class="changes">
+      <%= format_changes(@changeset) %>
+    </ul>
+    <%= top_link %>  
+  <% end -%>
+</div>
+  

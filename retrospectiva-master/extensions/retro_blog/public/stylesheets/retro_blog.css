@@ -1,0 +1,14 @@
+.retro-blog .markup {
+  font-family: Georgia, "DejaVu Serif", "Bitstream Vera Serif", "Vera Serif", serif;
+}
+
+.retro-blog .blog-title img { vertical-align:middle; }
+
+.blog-navigation dt { margin-bottom: 0.5em; }
+.blog-navigation dd { margin: 2px 0 0 0; }
+
+.retro-blog #blog-comment-form { margin-top: 2.5em; }
+
+.retro-blog .markup p,
+.retro-blog .markup td,
+.retro-blog .markup li { font-size: 1.1em; line-height:1.4; }

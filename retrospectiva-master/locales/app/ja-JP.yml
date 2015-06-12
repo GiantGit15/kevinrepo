@@ -1,0 +1,1351 @@
+ja-JP:
+  application:
+    # app/views/notifications/account_validation.text.plain.erb
+    "1. Click this link": "1. このリンクをクリックしてください"
+
+    # app/views/notifications/account_validation.text.plain.erb
+    "2. Surf to %{url} and enter the following activation code": |-
+      2. %{url}に行き
+      次の有効化コードを入力してください
+
+    # app/controllers/admin/users_controller.rb
+    "A notification was sent to the user.": ユーザに通知を送信しました。
+
+    # app/views/milestones/_form.html.erb
+    "A short description or other info you want displayed (optional)": 短い説明か表示したい他の情報（省略可）
+
+    # app/views/browse/show_file.html.erb
+    "A viewable MIME type was not detected. Trying to display the file content as plain text.": 閲覧可能なMIMEタイプを検出できませんでした。ファイルの中身をプレーンテキストとして表示してみます。
+
+    # app/views/admin/projects/_project.html.erb
+    "ATTENTION: Are you really sure, that you want to delete this project?": "注意: 本当にこのプロジェクトを削除したいですか？"
+
+    # app/views/admin/users/_groups.html.erb
+    "ATTENTION: Group settings will be ignored if the 'Administrator' option is selected!": "注意: '管理者'オプションを選択している場合はグループの設定は無視されます！"
+
+    # app/views/rescue/403.html.erb
+    "Access forbidden (403)": アクセス禁止（403）
+
+    # app/models/notifications.rb
+    "Account activation": アカウントの有効化
+
+    # app/models/notifications.rb
+    "Account validation": アカウントの検証
+
+    # app/views/accounts/activate.html.erb
+    Activate: 有効にする
+
+    # app/views/accounts/activate.html.erb
+    "Activate account": アカウントを有効にする
+
+    # app/views/accounts/activate.html.erb
+    "Activation code": 有効化コード
+
+    # app/views/admin/projects/_project.html.erb
+    # app/views/admin/projects/index.html.erb
+    # app/views/admin/users/_form.html.erb
+    # app/views/admin/users/_user.html.erb
+    # app/views/admin/users/index.html.erb
+    Active: 有効
+
+    # app/helpers/ticket_filter_helper.rb
+    "Add filter": 抽出オプションを追加
+
+    # app/helpers/changesets_helper.rb
+    Added: 追加
+
+    # app/helpers/navigation_helper.rb
+    Admin: 管理
+
+    # app/views/admin/shared/_header.html.erb
+    Administration: 管理
+
+    # app/views/admin/users/_form.html.erb
+    # app/views/admin/users/_user.html.erb
+    Administrator: 管理者
+
+    # app/views/changesets/show.html.erb
+    "Affected files": 影響のあったファイル
+
+    # app/helpers/search_helper.rb
+    # app/models/group.rb
+    # app/views/rss/_all.html.erb
+    # app/views/rss/_feed.html.erb
+    All: すべて
+
+    # app/controllers/projects_controller.rb
+    # app/views/rss/_all.html.erb
+    "All Projects": すべてのプロジェクト
+
+    # app/views/rss/_feed.html.erb
+    "All feeds for %{project}": "%{project}のすべてのフィード"
+
+    # app/views/rss/_all.html.erb
+    "All feeds from all projects": すべてのフィード
+
+    # app/models/status.rb
+    "All in progress": 進行中のものすべて
+
+    # app/controllers/projects_controller.rb
+    "All news for all projects": すべてのニュース
+
+    # app/controllers/projects_controller.rb
+    "All news for %{project}": "%{project}のすべてのニュース"
+
+    # app/models/status.rb
+    "All open": 未解決のものすべて
+
+    # app/models/status.rb
+    "All resolved": 解決済みのものすべて
+
+    # app/views/notifications/account_activation_note.text.plain.erb
+    # app/views/notifications/account_validation.text.plain.erb
+    # app/views/notifications/password_reset_instructions.text.plain.erb
+    # app/views/notifications/ticket_creation_note.text.plain.erb
+    # app/views/notifications/ticket_update_note.text.plain.erb
+    "Alternatively, copy and paste this link to your browser address bar.": またはこのリンクをコピーしてブラウザのアドレスバーに貼り付けてください。
+
+    # app/controllers/accounts_controller.rb
+    "An email including the activation code and the instructions was sent to you.": 有効化コードと作業内容を含んだEメールを送信しました。
+
+    # Missing
+    # app/helpers/application_helper.rb
+    "Are you sure?": 
+
+    # app/views/tickets/_ticket_info.html.erb
+    # app/views/tickets/form/_ticket_options.html.erb
+    # app/views/tickets/index.html.erb
+    "Assigned To": 担当者
+
+    # app/models/ticket_filter/custom/my_tickets.rb
+    "Assigned to me": 自分の担当
+
+    # app/models/ticket_change.rb
+    "Assigned user": 割り当てられたユーザ
+
+    # app/views/tickets/_change.html.erb
+    # app/views/tickets/_ticket_intro.html.erb
+    # app/views/tickets/form/_attachment_and_watch_status.html.erb
+    Attachment: 添付
+
+    # app/views/browse/revisions.html.erb
+    Author: 作者
+
+    # Missing
+    # app/views/accounts/show.html.erb
+    Avatar: 
+
+    # app/views/milestones/edit.html.erb
+    # app/views/milestones/new.html.erb
+    Back: 戻る
+
+    # app/views/tickets/_navigation.html.erb
+    "Back to ticket list": チケット一覧に戻る
+
+    # app/helpers/navigation_helper.rb
+    "Back to top": 先頭へ戻る
+
+    # app/views/browse/show_binary.html.erb
+    "Binary File": バイナリファイル
+
+    # vendor/plugins/wiki_engine/lib/wiki_engine/engines.rb
+    Blocks: ブロック
+
+    # app/core_info.rb
+    # app/views/browse/diff.html.erb
+    # app/views/browse/revisions.html.erb
+    Browse: 閲覧
+
+    # app/controllers/browse_controller.rb
+    "Browse Code": コードの閲覧
+
+    # app/views/browse/revisions.html.erb
+    "Browse revisions": 修正を表示
+
+    # app/views/browse/index.html.erb
+    # app/views/browse/repository_unavailable.html.erb
+    # app/views/browse/show_binary.html.erb
+    # app/views/browse/show_file.html.erb
+    # app/views/browse/show_image.html.erb
+    "Browse source": ソース閲覧
+
+    # app/helpers/navigation_helper.rb
+    "Browse %{title}": "%{title}を閲覧"
+
+    # app/helpers/application_helper.rb
+    # app/views/admin/shared/_form_footer.html.erb
+    # app/views/ticket_reports/_new.html.erb
+    Cancel: 中止
+
+    # app/models/user.rb
+    "Cannot delete. User '%{username}' is the last available admin.": "削除で来ません。'%{username}'ユーザは最後の管理者ユーザです。"
+
+    # app/views/admin/projects/_form.html.erb
+    # app/views/admin/projects/index.html.erb
+    Central: 主要プロジェクト
+
+    # app/views/notifications/ticket_update_note.text.plain.erb
+    "Changed by %{author} - %{time}": "%{author}が変更 - %{time}"
+
+    # app/views/browse/_revision.html.erb
+    # app/views/changesets/_changeset.html.erb
+    # app/views/changesets/show.html.erb
+    Changeset: 変更群
+
+    # app/helpers/changesets_helper.rb
+    "Changeset index": 変更群一覧
+
+    # app/models/changeset.rb
+    "Changeset %{revision}": "変更群%{revision}"
+
+    # app/controllers/changesets_controller.rb
+    # app/core_info.rb
+    # app/models/changeset.rb
+    # app/views/changesets/index.html.erb
+    Changesets: 変更群一覧
+
+    # app/models/changeset.rb
+    "Changesets for %{project}": "%{project}の変更群"
+
+    # app/views/admin/projects/_form.html.erb
+    "Check this option to make this your default project.": このプロジェクトをデフォルトプロジェクトとするときはこのオプションをチェックしてください。
+
+    # app/views/accounts/show.html.erb
+    "Check this option to renew your private access key.": プライベートアクセスキーを更新するときはこのオプションをチェックしてください。
+
+    # app/views/tickets/index.html.erb
+    "Clear selection": 選択解除
+
+    # app/views/projects/index.html.erb
+    "Click for info": 詳細情報はここをクリック
+
+    # app/views/changesets/_quick_diff.html.erb
+    Close: 閉じる
+
+    # app/helpers/format_helper.rb
+    "Close preview": プレビューを閉じる
+
+    # app/views/admin/projects/_form.html.erb
+    Closed: 閉鎖
+
+    # app/core_info.rb
+    Code: コード
+
+    # app/views/tickets/_update_form.html.erb
+    Comment: コメント
+
+    # app/views/tickets/show.html.erb
+    "Comments and Changes": コメントと変更
+
+    # app/views/browse/index.html.erb
+    Commit: コミット
+
+    # app/helpers/browse_helper.rb
+    "Compare [%{revision_a}] with [%{revision_b}]": "[%{revision_a}]と[%{revision_b}]を比較"
+
+    # app/views/admin/setup/index.html.erb
+    "Configuration could not be saved": 設定を保存できませんでした
+
+    # app/views/admin/users/_core.html.erb
+    Confirmation: 確認
+
+    # app/core_info.rb
+    # app/views/tickets/form/_update_content.html.erb
+    Content: 内容
+
+    # app/helpers/changesets_helper.rb
+    Copied: 複製
+
+    # app/core_info.rb
+    # app/views/accounts/new.html.erb
+    # app/views/admin/shared/_new_form.html.erb
+    # app/views/admin/ticket_property_values/new.html.erb
+    # app/views/milestones/new.html.erb
+    # app/views/ticket_reports/_new.html.erb
+    # app/views/tickets/new.html.erb
+    Create: 作成
+
+    # app/views/admin/groups/index.html.erb
+    # app/views/admin/groups/new.html.erb
+    "Create a new group": 新しいグループの作成
+
+    # app/views/milestones/index.html.erb
+    # app/views/milestones/new.html.erb
+    "Create a new milestone": 新しいマイルストーンの作成
+
+    # app/views/admin/projects/index.html.erb
+    # app/views/admin/projects/new.html.erb
+    "Create a new project": 新しいプロジェクトの作成
+
+    # app/views/admin/ticket_property_values/index.html.erb
+    # app/views/admin/ticket_property_values/new.html.erb
+    "Create a new property value": 新しいプロパティ値の作成
+
+    # app/views/admin/repositories/index.html.erb
+    # app/views/admin/repositories/new.html.erb
+    "Create a new repository": 新しいリポジトリの作成
+
+    # app/views/admin/ticket_properties/index.html.erb
+    # app/views/admin/ticket_properties/new.html.erb
+    "Create a new ticket property": 新しいチケットプロパティの作成
+
+    # app/views/admin/users/index.html.erb
+    # app/views/admin/users/new.html.erb
+    "Create a new user": 新しいユーザの作成
+
+    # app/views/tickets/_ticket.html.erb
+    "Created %{period} ago by %{author}": "%{author}が%{period}前に作成しました"
+
+    # app/helpers/browse_helper.rb
+    Current: 現在
+
+    # app/helpers/navigation_helper.rb
+    Dashboard: ダッシュボード
+
+    # app/views/browse/revisions.html.erb
+    Date: 日付
+
+    # lib/time_interval.rb
+    Days: 日間
+
+    # app/views/notifications/account_activation_note.text.plain.erb
+    # app/views/notifications/account_validation.text.plain.erb
+    # app/views/notifications/password_reset_instructions.text.plain.erb
+    # app/views/notifications/ticket_creation_note.text.plain.erb
+    # app/views/notifications/ticket_update_note.text.plain.erb
+    "Dear user!": ユーザの方へ
+
+    # app/views/admin/ticket_property_values/_property_value.html.erb
+    Default: 既定値
+
+    # app/models/group.rb
+    "Default group cannot be deleted": Defaultグループは削除できません
+
+    # app/models/group.rb
+    "Default group cannot be modified.": Defaultグループは変更できません。
+
+    # app/views/admin/ticket_property_values/_priority_form.html.erb
+    "Default value": デフォルト値
+
+    # app/core_info.rb
+    # app/helpers/admin/ticket_property_values_helper.rb
+    # app/helpers/milestones_helper.rb
+    # app/views/admin/groups/_group.html.erb
+    # app/views/admin/projects/_project.html.erb
+    # app/views/admin/repositories/_repository.html.erb
+    # app/views/admin/ticket_properties/_ticket_property.html.erb
+    # app/views/admin/ticket_property_values/_property_value.html.erb
+    # app/views/admin/users/_user.html.erb
+    # app/views/tickets/_change.html.erb
+    # app/views/tickets/_report.html.erb
+    # app/views/tickets/_ticket_intro.html.erb
+    Delete: 削除
+
+    # app/helpers/changesets_helper.rb
+    Deleted: 削除
+
+    # app/views/admin/projects/_form.html.erb
+    # app/views/admin/tasks/index.html.erb
+    # app/views/tickets/form/_summary_and_description.html.erb
+    Description: 説明
+
+    # app/views/tickets/new.html.erb
+    Details: 詳細
+
+    # app/views/browse/_revision.html.erb
+    Diff: 差分
+
+    # app/helpers/application_helper.rb
+    Display: 表示
+
+    # app/helpers/changesets_helper.rb
+    # app/views/browse/diff.html.erb
+    Download: ダウンロード
+
+    # app/views/browse/_show_header.html.erb
+    "Download in other formats": 別の形式でダウンロード
+
+    # app/views/milestones/_form.html.erb
+    # app/views/milestones/_milestone.html.erb
+    "Due on": 期日
+
+    # app/helpers/admin/ticket_property_values_helper.rb
+    # app/helpers/milestones_helper.rb
+    # app/views/admin/groups/_group.html.erb
+    # app/views/admin/projects/_project.html.erb
+    # app/views/admin/repositories/_repository.html.erb
+    # app/views/admin/ticket_properties/_ticket_property.html.erb
+    # app/views/admin/ticket_property_values/edit.html.erb
+    # app/views/admin/users/_user.html.erb
+    # app/views/tickets/_change.html.erb
+    # app/views/tickets/_ticket_intro.html.erb
+    Edit: 編集
+
+    # app/views/admin/groups/edit.html.erb
+    "Edit group": グループの編集
+
+    # app/views/milestones/edit.html.erb
+    "Edit milestone": マイルストーンの編集
+
+    # app/views/admin/projects/edit.html.erb
+    "Edit project": プロジェクトの編集
+
+    # app/views/admin/ticket_property_values/edit.html.erb
+    "Edit property value": プロパティ値を編集
+
+    # app/views/admin/repositories/edit.html.erb
+    "Edit repository": リポジトリの編集
+
+    # app/views/tickets/_navigation.html.erb
+    "Edit summary": 要約を編集
+
+    # app/views/admin/ticket_properties/edit.html.erb
+    "Edit ticket property": チケットプロパティの編集
+
+    # app/views/admin/users/edit.html.erb
+    "Edit user": ユーザの編集
+
+    # app/views/admin/users/_core.html.erb
+    # app/views/notifications/account_activation_note.text.plain.erb
+    # app/views/notifications/account_validation.text.plain.erb
+    # app/views/tickets/form/_name_and_email.html.erb
+    Email: Eメール
+
+    # app/views/admin/users/edit.html.erb
+    "Email notification": Eメール通知
+
+    # app/views/admin/projects/_form.html.erb
+    "Enabled modules": 有効なモジュール一覧
+
+    # app/views/admin/repositories/_form.html.erb
+    Examples: 例
+
+    # app/views/admin/dashboard/index.html.erb
+    # app/views/admin/extensions/index.html.erb
+    Extensions: 拡張機能
+
+    # app/controllers/admin/repositories_controller.rb
+    "Failure! Path does not contain a valid repository.": 失敗！パスには有効なリポジトリがありません。
+
+    # app/controllers/admin/repositories_controller.rb
+    "Failure! Path does not exist.": 失敗！パスがありません。
+
+    # app/controllers/admin/projects_controller.rb
+    "Failure! Path is not a directory in this repository.": 失敗！パスはこのリポジトリのディレクトリではありません。
+
+    # app/controllers/admin/repositories_controller.rb
+    "Failure! You are not permitted to browse this path.": 失敗！このパスを見る許可がありません。
+
+    # app/helpers/navigation_helper.rb
+    Feeds: フィード
+
+    # app/views/browse/show_binary.html.erb
+    "File content cannot be displayed for binary files.": バイナリファイルの中身を表示することはできません。
+
+    # app/views/tickets/index.html.erb
+    "Filter tickets": チケットを抽出
+
+    # app/views/admin/tasks/_task.html.erb
+    Finished: "終了時刻: "
+
+    # app/views/milestones/_form.html.erb
+    "Finished on": 終了日
+
+    # app/views/accounts/forgot_password.html.erb
+    # app/views/notifications/password_reset_instructions.text.plain.erb
+    # app/views/sessions/new.html.erb
+    "Forgot password": パスワードを忘れましたか？
+
+    # vendor/plugins/wiki_engine/lib/wiki_engine/engines.rb
+    Formats: 書式
+
+    # app/views/admin/users/_core.html.erb
+    # app/views/notifications/account_activation_note.text.plain.erb
+    # app/views/notifications/account_validation.text.plain.erb
+    "Full name": フルネーム
+
+    # Missing
+    # app/views/accounts/show.html.erb
+    "Get one avatar at": 
+
+    # app/views/admin/projects/_form.html.erb
+    # app/views/admin/ticket_properties/index.html.erb
+    Global: 全体
+
+    # app/views/admin/groups/index.html.erb
+    Group: グループ
+
+    # app/controllers/admin/groups_controller.rb
+    "Group could not be deleted. Following error(s) occured": グループを削除できませんでした。以下のエラーが発生しました
+
+    # app/views/admin/groups/_form.html.erb
+    "Group name": グループ名
+
+    # app/views/tickets/index.html.erb
+    "Group records": レコードをグループ化
+
+    # app/controllers/admin/groups_controller.rb
+    "Group was successfully created.": グループの作成に成功しました。
+
+    # app/controllers/admin/groups_controller.rb
+    "Group was successfully deleted.": グループの削除に成功しました。
+
+    # app/controllers/admin/groups_controller.rb
+    "Group was successfully updated.": グループの更新に成功しました。
+
+    # app/views/admin/dashboard/index.html.erb
+    # app/views/admin/groups/_header.html.erb
+    # app/views/admin/groups/index.html.erb
+    # app/views/admin/users/_groups.html.erb
+    # app/views/admin/users/index.html.erb
+    Groups: グループ一覧
+
+    # vendor/plugins/wiki_engine/lib/wiki_engine/engines.rb
+    Headers: 見出し
+
+    # app/views/sessions/logged_in.html.erb
+    "Hi %{user}!": "ようこそ%{user}さん！"
+
+    # app/helpers/changesets_helper.rb
+    "Hide Quick Diffs": 差分を隠す
+
+    # app/views/milestones/index.html.erb
+    "Hide already completed milestones": 完了したマイルストーンを隠す
+
+    # app/views/layouts/_header.html.erb
+    # app/views/rescue/403.html.erb
+    # app/views/rescue/404.html.erb
+    # app/views/rescue/422.html.erb
+    # app/views/rescue/500.html.erb
+    # app/views/sessions/destroy.html.erb
+    # app/views/sessions/logged_in.html.erb
+    # app/views/sessions/new.html.erb
+    Home: ホーム
+
+    # lib/time_interval.rb
+    Hours: 時間
+
+    # app/views/tickets/index.html.erb
+    ID: ID
+
+    # app/models/status.rb
+    "In progress": 進行中
+
+    # app/views/admin/projects/_project.html.erb
+    # app/views/admin/users/_user.html.erb
+    Inactive: 無効
+
+    # app/helpers/application_helper.rb
+    Info: 情報
+
+    # app/views/admin/extensions/index.html.erb
+    Installed: インストール済み
+
+    # app/views/admin/tasks/index.html.erb
+    Interval: 間隔
+
+    # app/views/browse/diff.html.erb
+    "Invalid or empty DIFF": 不正な差分あるいは差分がありません
+
+    # app/views/admin/repositories/_form.html.erb
+    # app/views/admin/repositories/index.html.erb
+    Kind: 種類
+
+    # app/views/tickets/index.html.erb
+    "Last Update": 最終更新時刻
+
+    # app/views/browse/index.html.erb
+    "Last modified": 最終変更時刻
+
+    # app/views/admin/users/_core.html.erb
+    "Leave password field blank, unless you actually want to change your password.": パスワードを変更しない場合は何も入力しないでください。
+
+    # app/helpers/browse_helper.rb
+    "Line %{number}": "%{number}行"
+
+    # app/controllers/markup_controller.rb
+    # vendor/plugins/wiki_engine/lib/wiki_engine/engines.rb
+    Links: リンク
+
+    # vendor/plugins/wiki_engine/lib/wiki_engine/engines.rb
+    Lists: リスト
+
+    # app/helpers/application_helper.rb
+    # app/views/layouts/_header.html.erb
+    Loading...: 読み込み中…
+
+    # app/views/admin/projects/_form.html.erb
+    Locale: ロケール
+
+    # app/views/browse/revisions.html.erb
+    Log: 記録
+
+    # app/helpers/navigation_helper.rb
+    # app/views/sessions/logged_in.html.erb
+    "Logged in as %{name}": "%{name}でログイン中"
+
+    # app/views/sessions/destroy.html.erb
+    "Logged out": ログアウトしました
+
+    # app/helpers/navigation_helper.rb
+    # app/views/sessions/destroy.html.erb
+    # app/views/sessions/new.html.erb
+    Login: ログイン
+
+    # app/controllers/sessions_controller.rb
+    "Login was not successful. Invalid username or password.": ログインに失敗しました。ユーザ名かパスワードが違います。
+
+    # app/controllers/sessions_controller.rb
+    "Login was successful.": ログインに成功しました。
+
+    # app/helpers/navigation_helper.rb
+    # app/views/sessions/logged_in.html.erb
+    Logout: ログアウト
+
+    # app/views/admin/groups/_form.html.erb
+    "Make all projects available to this group": このグループをすべてのプロジェクトで有効にする
+
+    # app/views/admin/dashboard/index.html.erb
+    Manage: 管理
+
+    # app/helpers/format_helper.rb
+    "Markup reference": 書き方を表示
+
+    # app/views/rescue/422.html.erb
+    "Maybe you tried to change something you didn't have access to.": アクセス権限のない変更をしようとしたのかもしれません。
+
+    # app/helpers/tickets_helper.rb
+    # app/models/milestone.rb
+    # app/models/ticket_change.rb
+    # app/models/ticket_filter/collection.rb
+    # app/views/tickets/form/_ticket_options.html.erb
+    # app/views/tickets/index.html.erb
+    Milestone: マイルストーン
+
+    # app/controllers/milestones_controller.rb
+    "Milestone was successfully created.": マイルストーンの作成に成功しました。
+
+    # app/controllers/milestones_controller.rb
+    "Milestone was successfully deleted.": マイルストーンの削除に成功しました。
+
+    # app/controllers/milestones_controller.rb
+    "Milestone was successfully updated.": マイルストーンの更新に成功しました。
+
+    # app/controllers/milestones_controller.rb
+    # app/core_info.rb
+    # app/models/milestone.rb
+    # app/views/milestones/edit.html.erb
+    # app/views/milestones/index.html.erb
+    # app/views/milestones/new.html.erb
+    Milestones: マイルストーン一覧
+
+    # app/models/milestone.rb
+    "Milestones for %{project}": "%{project}のマイルストーン一覧"
+
+    # lib/time_interval.rb
+    Minutes: 分
+
+    # app/core_info.rb
+    Modify: 変更
+
+    # app/views/tickets/index.html.erb
+    Month: 月
+
+    # lib/time_interval.rb
+    Months: ヶ月
+
+    # app/helpers/changesets_helper.rb
+    Moved: 移動
+
+    # app/helpers/navigation_helper.rb
+    # app/views/accounts/show.html.erb
+    # app/views/notifications/password_reset_instructions.text.plain.erb
+    "My Account": アカウント設定
+
+    # app/models/ticket_filter/custom/my_tickets.rb
+    "My Tickets": 自分のチケット
+
+    # app/views/admin/repositories/_form.html.erb
+    # app/views/admin/ticket_properties/_form.html.erb
+    # app/views/admin/ticket_property_values/_value_form.html.erb
+    # app/views/browse/index.html.erb
+    # app/views/milestones/_form.html.erb
+    # app/views/ticket_reports/_form.html.erb
+    # app/views/tickets/form/_name_and_email.html.erb
+    Name: 名前
+
+    # app/models/status.rb
+    Negative: 否定的
+
+    # app/models/status.rb
+    Neutral: 中立
+
+    # app/views/admin/ticket_property_values/new.html.erb
+    New: 新規
+
+    # app/controllers/tickets_controller.rb
+    "New Ticket": 新規チケット
+
+    # app/views/tickets/_ticket.html.erb
+    # app/views/tickets/new.html.erb
+    "New ticket": 新規チケット
+
+    # app/helpers/changesets_helper.rb
+    "Next changeset": 次の変更群
+
+    # app/views/tickets/_navigation.html.erb
+    "Next ticket": 次のチケット
+
+    # app/helpers/admin/setup_helper.rb
+    # app/helpers/format_helper.rb
+    "No": いいえ
+
+    # app/models/ticket_change.rb
+    "No changes were made": 変更しませんでした
+
+    # app/views/projects/index.html.erb
+    "No projects available": 利用可能なプロジェクトがありません
+
+    # app/controllers/admin/projects_controller.rb
+    "No repository selected.": リポジトリが選択されていません。
+
+    # app/views/tickets/index.html.erb
+    None: なし
+
+    # app/views/admin/extensions/index.html.erb
+    "Not Installed": 未インストール
+
+    # app/views/admin/ticket_property_values/index.html.erb
+    Note: 注
+
+    # app/views/admin/users/edit.html.erb
+    "Notify user on account activation": アカウント有効化時にユーザに通知する
+
+    # Missing
+    # app/views/ticket_reports/_form.html.erb
+    "Only Last": 
+
+    # app/models/status.rb
+    Open: 未解決
+
+    # app/views/accounts/show.html.erb
+    # app/views/admin/projects/_form.html.erb
+    # app/views/admin/ticket_property_values/_priority_form.html.erb
+    # app/views/admin/users/_form.html.erb
+    # app/views/tickets/form/_ticket_options.html.erb
+    Options: 選択
+
+    # vendor/plugins/wiki_engine/lib/wiki_engine/engines.rb
+    Paragraphs: 段落
+
+    # app/views/admin/users/_core.html.erb
+    # app/views/sessions/new.html.erb
+    Password: パスワード
+
+    # app/models/notifications.rb
+    "Password reset": パスワード再設定
+
+    # app/views/admin/repositories/_form.html.erb
+    Path: パス
+
+    # app/controllers/browse_controller.rb
+    "Path '%{path}' does not exist in revision %{revision}, showing revision %{latest}.": "パス'%{path}'は修正%{revision}に存在しないので修正%{latest}を表示しています。"
+
+    # app/controllers/browse_controller.rb
+    "Path '%{path}' does not exist in revision %{revision}, showing root path.": "パス'%{path}'は修正%{revision}に存在しないのでルートパスを表示しています。"
+
+    # app/views/admin/groups/_form.html.erb
+    # app/views/admin/groups/index.html.erb
+    Permissions: 許可一覧
+
+    # app/views/admin/repositories/_form.html.erb
+    "Please specify an optional system call, which will be executed before each repository synchronization.": 各リポジトリを同期する前に実行されるコマンドを指定してください。（任意）
+
+    # app/models/status.rb
+    Positive: 肯定的
+
+    # app/helpers/format_helper.rb
+    Preview: プレビュー
+
+    # app/helpers/changesets_helper.rb
+    "Previous changeset": 前の変更群
+
+    # app/views/tickets/_navigation.html.erb
+    "Previous ticket": 前のチケット
+
+    # app/helpers/tickets_helper.rb
+    # app/models/priority.rb
+    # app/models/ticket_change.rb
+    # app/models/ticket_filter/collection.rb
+    # app/views/admin/ticket_properties/index.html.erb
+    # app/views/tickets/form/_ticket_options.html.erb
+    # app/views/tickets/index.html.erb
+    Priority: 優先度
+
+    # app/views/admin/projects/index.html.erb
+    Project: プロジェクト
+
+    # app/controllers/admin/projects_controller.rb
+    "Project could not be deleted. Following error(s) occured": プロジェクトを削除できませんでした。以下のエラーが発生しました。
+
+    # app/views/admin/projects/_form.html.erb
+    "Project name": プロジェクト名
+
+    # app/views/admin/ticket_properties/index.html.erb
+    "Project specific": プロジェクト固有
+
+    # app/controllers/admin/projects_controller.rb
+    "Project was successfully created.": プロジェクトの作成に成功しました。
+
+    # app/controllers/admin/projects_controller.rb
+    "Project was successfully deleted.": プロジェクトの削除に成功しました。
+
+    # app/controllers/admin/projects_controller.rb
+    "Project was successfully updated.": プロジェクトの更新に成功しました。
+
+    # app/helpers/navigation_helper.rb
+    # app/views/admin/dashboard/index.html.erb
+    # app/views/admin/groups/_form.html.erb
+    # app/views/admin/groups/index.html.erb
+    # app/views/admin/projects/_header.html.erb
+    # app/views/admin/projects/index.html.erb
+    # app/views/admin/ticket_properties/_header.html.erb
+    # app/views/admin/ticket_properties/index.html.erb
+    # app/views/admin/ticket_property_values/edit.html.erb
+    # app/views/admin/ticket_property_values/index.html.erb
+    # app/views/admin/ticket_property_values/new.html.erb
+    # app/views/projects/index.html.erb
+    Projects: プロジェクト一覧
+
+    # app/views/browse/_node_info.html.erb
+    # app/views/tickets/index.html.erb
+    Properties: プロパティ一覧
+
+    # app/controllers/admin/ticket_property_values_controller.rb
+    "Property value was successfully created.": プロパティ値の作成に成功しました。
+
+    # app/controllers/admin/ticket_property_values_controller.rb
+    "Property value was successfully deleted.": プロパティ値の削除に成功しました。
+
+    # app/controllers/admin/ticket_property_values_controller.rb
+    "Property value was successfully updated.": プロパティ値の更新に成功しました。
+
+    # app/views/admin/ticket_property_values/index.html.erb
+    "Property values": プロパティ値
+
+    # app/models/user.rb
+    "Public user cannot be deleted.": Publicユーザは削除できません。
+
+    # app/models/user.rb
+    "Public user cannot be modified.": Publicユーザは編集できません。
+
+    # app/helpers/changesets_helper.rb
+    "Quick Diff": 差分へ
+
+    # app/views/rss/index.html.erb
+    RSS: RSS
+
+    # app/helpers/browse_helper.rb
+    Raw: そのまま
+
+    # app/helpers/format_helper.rb
+    Reference: リファレンス
+
+    # vendor/plugins/wiki_engine/lib/wiki_engine/engines.rb
+    References: リファレンス
+
+    # app/helpers/navigation_helper.rb
+    # app/views/accounts/new.html.erb
+    # app/views/sessions/new.html.erb
+    Register: 登録
+
+    # app/views/accounts/show.html.erb
+    "Remember to update your RSS subscriptions afterwards.": 更新後、RSS購読情報を更新するのを忘れないでください。
+
+    # app/helpers/ticket_filter_helper.rb
+    "Remove filter": 抽出オプションを削除
+
+    # app/views/accounts/show.html.erb
+    "Renew my private key": プライベートキーを再生成
+
+    # app/controllers/ticket_reports_controller.rb
+    "Report was successfully created.": レポートの作成に成功しました。
+
+    # app/controllers/ticket_reports_controller.rb
+    "Report was successfully deleted.": レポートの削除に成功しました。
+
+    # app/models/ticket_filter/custom/my_tickets.rb
+    "Reported by me": 自分の報告
+
+    # app/views/notifications/ticket_creation_note.text.plain.erb
+    # app/views/notifications/ticket_update_note.text.plain.erb
+    "Reported by %{author} - %{time}": "%{author}が報告 - %{time}"
+
+    # app/core_info.rb
+    # app/views/tickets/_reports.html.erb
+    Reports: レポート一覧
+
+    # app/views/admin/dashboard/index.html.erb
+    # app/views/admin/repositories/_header.html.erb
+    # app/views/admin/repositories/index.html.erb
+    Repositories: リポジトリ一覧
+
+    # app/views/admin/projects/_form.html.erb
+    # app/views/admin/repositories/index.html.erb
+    Repository: リポジトリ
+
+    # app/views/browse/repository_unavailable.html.erb
+    "Repository Unavailable": リポジトリを利用できません
+
+    # app/views/admin/projects/_form.html.erb
+    "Repository path": リポジトリのパス
+
+    # app/controllers/admin/repositories_controller.rb
+    "Repository was successfully created.": リポジトリの作成に成功しました。
+
+    # app/controllers/admin/repositories_controller.rb
+    "Repository was successfully deleted.": リポジトリの削除に成功しました。
+
+    # app/controllers/admin/repositories_controller.rb
+    "Repository was successfully updated.": リポジトリの更新に成功しました。
+
+    # Missing
+    # app/views/admin/tasks/_task.html.erb
+    Reset: 
+
+    # app/models/status.rb
+    Resolved: 解決済み
+
+    # app/views/admin/dashboard/index.html.erb
+    "Retrospectiva administration": Retrospectiva管理
+
+    # app/views/browse/_node_info.html.erb
+    # app/views/browse/revisions.html.erb
+    Revision: 修正
+
+    # app/controllers/browse_controller.rb
+    "Revision %{revision} seems not to be valid, showing revision %{latest}.": "修正%{revision}は正しくないようなので、修正%{latest}を表示しています。"
+
+    # app/helpers/browse_helper.rb
+    Revisions: 修正一覧
+
+    # app/views/admin/users/_form.html.erb
+    "SCM name": ソース管理システムでの名前
+
+    # app/helpers/application_helper.rb
+    Save: 保存
+
+    # app/views/admin/setup/_section.html.erb
+    # app/views/admin/tasks/index.html.erb
+    "Save all": すべて保存
+
+    # Missing
+    # app/views/ticket_reports/_new.html.erb
+    # app/views/tickets/index.html.erb
+    "Save as Report": 
+
+    # app/helpers/application_helper.rb
+    Saving...: 保存中…
+
+    # app/controllers/search_controller.rb
+    # app/core_info.rb
+    # app/helpers/navigation_helper.rb
+    # app/views/admin/users/index.html.erb
+    # app/views/search/index.html.erb
+    # app/views/tickets/index.html.erb
+    Search: 検索
+
+    # app/views/tickets/_navigation.html.erb
+    "See last change": 最後の変更を見る
+
+    # app/helpers/ticket_filter_helper.rb
+    "Select filter": 抽出オプションを選択
+
+    # app/views/accounts/forgot_password.html.erb
+    Send: 送信
+
+    # app/controllers/admin/setup_controller.rb
+    "Settings were successfully saved.": 設定の保存に成功しました。
+
+    # app/views/admin/dashboard/index.html.erb
+    # app/views/admin/setup/index.html.erb
+    Setup: セットアップ
+
+    # app/controllers/accounts_controller.rb
+    "Shortly you will receive an email with instructions on how to reset your password.": すぐにパスワードを再設定する方法が書かれたメールが届きます。
+
+    # app/helpers/changesets_helper.rb
+    "Show Quick Diffs": 差分を表示
+
+    # app/views/milestones/index.html.erb
+    "Show already completed milestones": 完了したマイルストーンを表示
+
+    # app/helpers/navigation_helper.rb
+    "Show changeset %{revision}": "%{revision}の変更群を表示"
+
+    # app/views/browse/_node_info.html.erb
+    "Show latest": 最新を表示
+
+    # app/views/tickets/index.html.erb
+    "Show report": レポートを表示
+
+    # app/views/browse/index.html.erb
+    Size: サイズ
+
+    # app/views/admin/tasks/_task.html.erb
+    Started: 開始時刻
+
+    # app/views/milestones/_form.html.erb
+    "Started on": 開始時刻
+
+    # app/models/ticket_filter/collection.rb
+    # app/views/admin/ticket_property_values/_status_form.html.erb
+    State: 状況
+
+    # app/views/admin/ticket_property_values/_status_form.html.erb
+    Statement: 声明
+
+    # app/helpers/tickets_helper.rb
+    # app/models/status.rb
+    # app/models/ticket_change.rb
+    # app/models/ticket_filter/collection.rb
+    # app/views/admin/tasks/index.html.erb
+    # app/views/admin/ticket_properties/index.html.erb
+    # app/views/tickets/form/_ticket_options.html.erb
+    # app/views/tickets/index.html.erb
+    Status: 状態
+
+    # app/views/tickets/_navigation.html.erb
+    "Stop watching this ticket": このチケットの監視をやめる
+
+    # app/controllers/admin/repositories_controller.rb
+    "Success! Path contains a valid repository (latest revision: %{latest}).": "成功！パスは有効なリポジトリです（最新修正: %{latest}）。"
+
+    # app/controllers/admin/projects_controller.rb
+    "Success! Path is a directory in this repository.": 成功！パスはこのリポジトリのディレクトリです。
+
+    # app/views/tickets/form/_summary_and_description.html.erb
+    # app/views/tickets/index.html.erb
+    Summary: 要約
+
+    # Missing
+    # app/controllers/admin/repositories_controller.rb
+    "Support for %{system} is not enabled.": 
+
+    # app/views/admin/repositories/_form.html.erb
+    "Sync callback": 同期方法
+
+    # vendor/plugins/wiki_engine/lib/wiki_engine/engines.rb
+    Tables: 表
+
+    # app/views/admin/tasks/index.html.erb
+    Task: タスク
+
+    # app/controllers/admin/tasks_controller.rb
+    "Task configuration was successfully updated.": タスクの設定の更新に成功しました。
+
+    # app/views/admin/dashboard/index.html.erb
+    # app/views/admin/tasks/index.html.erb
+    Tasks: タスク一覧
+
+    # app/helpers/browse_helper.rb
+    Text: テキスト
+
+    # app/controllers/accounts_controller.rb
+    "Thank you.": おつかれさま。
+
+    # app/views/rescue/422.html.erb
+    "The change you wanted was rejected.": 要求された変更を拒否しました。
+
+    # app/views/rescue/404.html.erb
+    "The page you were looking for doesn't exist.": 探しているページがありませんよ。
+
+    # app/views/browse/repository_unavailable.html.erb
+    "The repository is currently unavailable, please try it again later.": このリポジトリは現在利用できいません。後でまた試してください。
+
+    # app/helpers/admin/ticket_property_values_helper.rb
+    "They will be set back to the default value.": それらはデフォルト値に設定されます。
+
+    # app/views/admin/users/edit.html.erb
+    "This setting only applies if you enable the 'Activate' checkbox": この設定は'有効にする'チェックボックスをチェックしたときだけ適用されます
+
+    # app/views/tickets/show.html.erb
+    Ticket: チケット
+
+    # app/models/ticket_change.rb
+    "Ticket #%{id} (%{status}) changed by %{author} - %{summary}": "%{author}がチケット#%{id}（%{status}）を変更  - %{summary}"
+
+    # app/models/ticket.rb
+    "Ticket #%{id} (%{status}) reported by %{author} - %{summary}": "%{author}がチケット#%{id}（%{status}）を報告  - %{summary}"
+
+    # app/views/notifications/ticket_creation_note.text.plain.erb
+    # app/views/notifications/ticket_update_note.text.plain.erb
+    "Ticket #%{id}: '%{summary}'": "チケット#%{id}: 「%{summary}」"
+
+    # app/controllers/tickets_controller.rb
+    "Ticket change was successfully deleted.": チケットの変更の削除に成功しました。
+
+    # app/views/admin/projects/_project.html.erb
+    # app/views/admin/ticket_properties/index.html.erb
+    # app/views/admin/ticket_property_values/edit.html.erb
+    # app/views/admin/ticket_property_values/index.html.erb
+    # app/views/admin/ticket_property_values/new.html.erb
+    "Ticket properties": チケットプロパティ一覧
+
+    # app/controllers/admin/ticket_properties_controller.rb
+    "Ticket property was successfully created.": チケットプロパティの作成に成功しました。
+
+    # app/controllers/admin/ticket_properties_controller.rb
+    "Ticket property was successfully deleted.": チケットプロパティの削除に成功しました。
+
+    # app/controllers/admin/ticket_properties_controller.rb
+    "Ticket property was successfully updated.": チケットプロパティの更新に成功しました。
+
+    # app/controllers/tickets_controller.rb
+    "Ticket was successfully created.": チケットの作成に成功しました。
+
+    # app/controllers/tickets_controller.rb
+    "Ticket was successfully deleted.": チケットの削除に成功しました。
+
+    # app/controllers/tickets_controller.rb
+    "Ticket was successfully updated.": チケットの更新に成功しました。
+
+    # app/controllers/tickets_controller.rb
+    # app/core_info.rb
+    # app/models/ticket.rb
+    # app/views/milestones/_milestone.html.erb
+    # app/views/tickets/index.html.erb
+    Tickets: チケット一覧
+
+    # app/models/ticket.rb
+    "Tickets for %{project}": "%{project}のチケット一覧"
+
+    # app/views/admin/users/_core.html.erb
+    # app/views/admin/users/index.html.erb
+    "Time zone": タイムゾーン
+
+    # app/views/notifications/account_activation_note.text.plain.erb
+    "To access the login page click this link": ログインページにアクセスするにはこのリンクをクリックしてください
+
+    # app/views/notifications/ticket_creation_note.text.plain.erb
+    # app/views/notifications/ticket_update_note.text.plain.erb
+    "To access the ticket click this link": チケットにアクセスするにはこのリンクをクリックしてください
+
+    # app/views/notifications/password_reset_instructions.text.plain.erb
+    "To access your account, click the link below": アカウントにアクセスするには以下のリンクをクリックしてください
+
+    # app/views/notifications/account_validation.text.plain.erb
+    "To complete the registration process you need to verify your email address. To make up this process you have two options": |-
+      登録処理を完了するためにあなたのEメールアドレスを確認する必要があります。
+      このために2つの選択肢があります:
+
+    # app/helpers/admin/setup_helper.rb
+    "Toggle description for setting '%{name}'": "設定'%{name}'の説明表示を切り替える"
+
+    # app/views/browse/diff.html.erb
+    "Unable to display the changes (DIFF) between revision '%{source}' and '%{target}' for the selected file.": "選択されたファイルへの修正'%{source}'と'%{target}'の間での変更（差分）を表示することができません。"
+
+    # app/controllers/browse_controller.rb
+    "Unable to find revision %{revision} for '%{path}', showing revision %{latest}.": "修正%{revision}にパス'/%{path}'が見つからなかったので修正%{latest}を表示しています。"
+
+    # app/views/tickets/_ticket_info.html.erb
+    Unassigned: 未割り当て
+
+    # app/views/browse/show_file.html.erb
+    "Unknown File Type": 未知のファイルの種類
+
+    # app/core_info.rb
+    # app/views/accounts/show.html.erb
+    # app/views/admin/shared/_edit_form.html.erb
+    # app/views/admin/ticket_property_values/edit.html.erb
+    # app/views/admin/users/edit.html.erb
+    # app/views/milestones/edit.html.erb
+    # app/views/tickets/_update_form.html.erb
+    Update: 更新
+
+    # app/helpers/changesets_helper.rb
+    Updated: 更新
+
+    # app/views/admin/users/index.html.erb
+    User: ユーザ
+
+    # app/controllers/admin/users_controller.rb
+    "User account was activated.": ユーザアカウントを有効にしました。
+
+    # app/controllers/accounts_controller.rb
+    "User account was successfully activated. You can now login.": ユーザアカウントの有効化に成功しました。ログインできます。
+
+    # app/controllers/accounts_controller.rb
+    "User account was successfully created.": ユーザアカウントの作成に成功しました。
+
+    # app/controllers/accounts_controller.rb
+    "User account was successfully updated.": ユーザアカウントの更新に成功しました。
+
+    # app/controllers/admin/users_controller.rb
+    "User could not be deleted. Following error(s) occurred": ユーザを削除できませんでした。以下のエラーが発生しました
+
+    # app/controllers/admin/users_controller.rb
+    "User was successfully created.": ユーザの作成に成功しました。
+
+    # app/controllers/admin/users_controller.rb
+    "User was successfully deleted.": ユーザの削除に成功しました。
+
+    # app/controllers/admin/users_controller.rb
+    "User was successfully updated.": ユーザの更新に成功しました。
+
+    # app/views/accounts/activate.html.erb
+    # app/views/admin/users/_core.html.erb
+    # app/views/admin/users/edit.html.erb
+    # app/views/notifications/account_activation_note.text.plain.erb
+    # app/views/notifications/account_validation.text.plain.erb
+    Username: ユーザ名
+
+    # app/views/accounts/forgot_password.html.erb
+    # app/views/sessions/new.html.erb
+    "Username or Email": ユーザ名またはEメール
+
+    # app/views/admin/dashboard/index.html.erb
+    # app/views/admin/users/_header.html.erb
+    # app/views/admin/users/index.html.erb
+    Users: ユーザ一覧
+
+    # app/core_info.rb
+    # app/views/admin/ticket_properties/_ticket_property.html.erb
+    # app/views/admin/ticket_properties/index.html.erb
+    View: 表示
+
+    # app/views/browse/diff.html.erb
+    "View changes": 変更の閲覧
+
+    # app/helpers/admin/ticket_property_values_helper.rb
+    "WARNING: There are currently %{count} tickets assigned with this property.": "注意: 現在、%{count}個のチケットがこのプロパティに関連付けられています。"
+
+    # app/core_info.rb
+    # app/views/tickets/form/_attachment_and_watch_status.html.erb
+    Watch: 注目
+
+    # app/views/tickets/_navigation.html.erb
+    # app/views/tickets/form/_attachment_and_watch_status.html.erb
+    "Watch this ticket": このチケットの変更通知を受け取る
+
+    # app/models/ticket_filter/custom/my_tickets.rb
+    "Watched by me": 自分が注目しているチケット
+
+    # app/views/rescue/500.html.erb
+    "We're sorry, but something went wrong.": ごめんね、ちょっと問題があったみたい。
+
+    # app/views/rescue/500.html.erb
+    "We've been notified about this issue and we'll take a look at it shortly.": この問題は報告したので近いうちにちょっと調べてみるよ。
+
+    # app/views/tickets/index.html.erb
+    Week: 週
+
+    # lib/time_interval.rb
+    Weeks: 週間
+
+    # app/helpers/admin/setup_helper.rb
+    # app/helpers/format_helper.rb
+    "Yes": はい
+
+    # app/views/sessions/logged_in.html.erb
+    "You are logged in to the system.": システムにログインしました。
+
+    # app/controllers/accounts_controller.rb
+    "You are not allowed to login until your account has been activated by the administrator.": 管理者があなたのアカウントを有効化するまでログインできません。
+
+    # app/views/rescue/403.html.erb
+    "You are not permitted to view this page.": このページを見ることができません。
+
+    # app/views/sessions/destroy.html.erb
+    "You are now logged out of the system.": システムからログアウトしました。
+
+    # app/controllers/tickets_controller.rb
+    "You are now watching this ticket.": このチケットを注目することにしました。
+
+    # app/views/notifications/account_activation_note.text.plain.erb
+    "You are receiving this message because the user account you have applied for at %{site} has been activated.": |-
+      %{site}で申し込んだユーザアカウントが有効になったので
+      このメッセージを送っています。
+
+    # app/views/notifications/ticket_creation_note.text.plain.erb
+    "You are receiving this message because you are subscribed to receive notifications about": 以下の通知を購読したのでこのメッセージを送っています。
+
+    # app/views/notifications/account_validation.text.plain.erb
+    "You are receiving this message because you have applied for an user account at %{site}.": |-
+      %{site}でユーザアカウントを申し込んだので
+      このメッセージを送っています。
+
+    # app/views/notifications/ticket_update_note.text.plain.erb
+    "You are receiving this message because you have subscribed to receive notification about changes of": この変更の通知を購読したのでこのメッセージを送っています
+
+    # app/views/notifications/password_reset_instructions.text.plain.erb
+    "You are receiving this message because you have used the '%{forgot_password}' feature at %{site}.": "%{site}で'%{forgot_password}'機能を使ったのでこのメールを受け取っています。"
+
+    # app/helpers/tickets_helper.rb
+    "You are watching this ticket": このチケットを注目しています。
+
+    # app/views/admin/ticket_property_values/index.html.erb
+    "You can sort the items by dragging them and dropping them into the right position.": 適切な位置にドラッグ&ドロップをして項目の順序を並べ替える事ができます。
+
+    # app/models/user.rb
+    "You cannot delete your own account.": 自分のアカウントは削除できません。
+
+    # app/views/rescue/404.html.erb
+    "You may have mistyped the address or the page may have moved.": アドレスを間違えたかページが移動したんだと思います。
+
+    # app/controllers/accounts_controller.rb
+    "You need to activate your account within the next %{count} hours to be able to login.": "ログインするためには%{count}時間以内にあなたのアカウントを有効化する必要があります。"
+
+    # app/controllers/tickets_controller.rb
+    "You stopped watching this ticket.": このチケットの監視をやめました。
+
+    # app/views/notifications/password_reset_instructions.text.plain.erb
+    "You will be directed to the '%{my_account}' screen where you will have the option to change your current password.": "'%{my_account}'ページに移動します。そこで現在のパスワードを変更できます。"
+
+    # app/views/admin/projects/_project.html.erb
+    "You will lose all related data as well!": 関連するデータも失うことになります！
+
+    # app/views/notifications/account_activation_note.text.plain.erb
+    # app/views/notifications/account_validation.text.plain.erb
+    "Your registration details": "登録情報の詳細:"
+
+    # app/views/search/index.html.erb
+    "Your search for '%{term}' did not match any results.": "%{term}での検索に該当する結果はありませんでした。"
+
+    # app/views/tickets/_change.html.erb
+    # app/views/tickets/_ticket_intro.html.erb
+    added: 追加
+
+    # app/helpers/tickets_helper.rb
+    "changed from %{old_value} to %{new_value}": "%{old_value}から%{new_value}へ変更"
+
+    # app/views/milestones/_milestone.html.erb
+    completed: 完了済み
+
+    # app/helpers/changesets_helper.rb
+    "copied from %{path}": "%{path}から複製"
+
+    # app/helpers/format_helper.rb
+    "in %{period}": "%{period}以内"
+
+    # app/views/tickets/form/_attachment_and_watch_status.html.erb
+    max.: 最大
+
+    # app/helpers/changesets_helper.rb
+    "moved from %{path}": "%{path}から移動"
+
+    # app/helpers/tickets_helper.rb
+    "reset (from %{value})": "解除（以前は%{value}）"
+
+    # app/helpers/tickets_helper.rb
+    "set to %{value}": "%{value}に設定"
+
+    # app/views/browse/_node.html.erb
+    "%{count} file(s)": "%{count}ファイル"
+
+    # app/helpers/format_helper.rb
+    "%{period} ago": "%{period}前"
+
+    # app/controllers/admin/ticket_property_values_controller.rb
+    "%{record} was successfully created.": "%{record}の作成に成功しました。"
+

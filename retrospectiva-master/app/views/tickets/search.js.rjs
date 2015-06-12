@@ -1,0 +1,2 @@
+page.replace_html 'tickets', render_grouped(@tickets, params[:by])
+toggle_pagination(page)

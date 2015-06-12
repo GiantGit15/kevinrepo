@@ -1,0 +1,14 @@
+<div class="float-r">
+  <%= link_to _('Link'), story_path(@story) %> |
+  <% if permitted?(:stories, :modify) -%>
+    <%= link_to _('Edit'), edit_story_path(@story) %> |
+  <% end -%>
+  <%= link_to_function(_('Close'), "$('lightbox').hide(); $('fadebox').hide();") %>
+</div>
+
+<div class="agile-pm">
+  <%= render :partial => 'full' %>
+  <%= render :partial => 'comment_form' if permitted?(:stories, :update) %>
+</div>
+
+<hr class="space" />

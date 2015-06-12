@@ -1,0 +1,118 @@
+ru-RU:
+  application:
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    Author: Автор
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    # extensions/retro_blog/models/blog_post.rb
+    # extensions/retro_blog/views/blog/edit.html.erb
+    # extensions/retro_blog/views/blog/index.html.erb
+    # extensions/retro_blog/views/blog/new.html.erb
+    # extensions/retro_blog/views/blog/show.html.erb
+    Blog: Ежедневник
+
+    # extensions/retro_blog/ext_info.rb
+    "Blog Posts": "Заметки в ежедневник"
+
+    # Unknown
+    "Blog Posts for %{project}": 
+
+    # extensions/retro_blog/models/blog_post.rb
+    "Blog for %{project}": "Ежедневник проекта %{project}"
+
+    # extensions/retro_blog/views/blog/edit.html.erb
+    Cancel: Отмена
+
+    # extensions/retro_blog/views/blog/_form.html.erb
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    Categories: "Ключевые слова"
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    Comment: Комментарий
+
+    # extensions/retro_blog/lib/blog_comments_controller.rb
+    "Comment was successfully created.": "Комментарий добавлен."
+
+    # extensions/retro_blog/lib/blog_comments_controller.rb
+    "Comment was successfully deleted.": "Комментарий удален."
+
+    # extensions/retro_blog/views/blog/_comments.html.erb
+    Comments: Комментировать
+
+    # extensions/retro_blog/views/blog/_form.html.erb
+    Content: Содержимое
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    # extensions/retro_blog/views/blog/new.html.erb
+    Create: Создать
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    # extensions/retro_blog/views/blog/new.html.erb
+    "Create Post": Опубликовать
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/_comment.html.erb
+    # extensions/retro_blog/views/blog/show.html.erb
+    Delete: Удалить
+
+    # extensions/retro_blog/views/blog/_comment.html.erb
+    # extensions/retro_blog/views/blog/show.html.erb
+    Edit: Изменение
+
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    Email: Email
+
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    # extensions/retro_blog/views/blog/_comments.html.erb
+    "Leave a comment": "Написать комментарий"
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    "My Posts": "Только мои"
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    Navigation: Сообщения
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    "Post was successfully created.": "Сообщение опубликовано"
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    "Post was successfully deleted.": "Сообщение удалено"
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    "Post was successfully updated.": "Сообщение изменено"
+
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "Read more": "Читать далее"
+
+    # Unknown
+    "Really delete this comment?": 
+
+    # Unknown
+    "Really delete this post?": 
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "Recent Posts": "Самые новые"
+
+    # extensions/retro_blog/views/blog/index.html.erb
+    "There are no posts available.": "Сообщений нет"
+
+    # extensions/retro_blog/views/blog/_form.html.erb
+    Title: Заголовок
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/edit.html.erb
+    Update: Изменение
+
+    # extensions/retro_blog/ext_info.rb
+    View: Просмотр
+
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "%{count} comments": "комментариев: %{count}"
+
+    # Missing
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "%{user} on %{date}": 
+

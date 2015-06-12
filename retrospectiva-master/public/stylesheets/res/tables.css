@@ -1,0 +1,172 @@
+table.code { border: 1px solid #ccc; border-collapse: separate; width: 100%; font-size: 95%; }
+table.code thead th { background: #ddd; color: #fff; border-bottom: 1px solid #ccc; }
+table.code thead th a:hover { background: transparent; }
+table.code tbody th,
+table.code tbody td  { vertical-align:top; }
+table.code tbody th  { text-align: right; background: #eee; border-right: 1px solid #ccc; padding-right: 4px; }
+table.code .code-full  { width: 97%; }
+table.code .code-line  { width:3%; }
+table.code .code-left,
+table.code .code-right { width: 47%; font-size: 90%; }
+table.code tbody pre {
+  margin:0; padding:0; border:0; 
+  background: transparent; 
+  line-height: 1.3; 
+  white-space: pre-wrap; /* CSS 3 */
+  white-space: -moz-pre-wrap; /* Mozilla, 1999+ */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* IE 5.5+ */  
+}
+table.code-split tbody pre { font-size: 90%; }
+
+table.code .separator td,
+table.code .separator th { border-top: 1px solid #ddd; border-bottom: 1px solid #ccc; padding-top:0; padding-bottom:0; }
+table.code .separator td { background: #eee; }
+table.code .separator th { background: #ddd; }
+
+table.code .update td { border-left: 1px solid #ddd; border-right: 1px solid #ddd; }
+table.code .modify td { background: #fff6bf; border-color: #fd0; }
+table.code .insert td { background: #e8ffe8; border-color: #090; }
+table.code .delete td { background: #ffe8e8; border-color: #c00; }
+table.code .update .first td { border-top-style: solid; border-top-width: 1px; }
+table.code .update .last td  { border-bottom-style: solid; border-bottom-width: 1px; }
+
+/*
+table.code .r   { color: #c00; font-weight: bold; }
+table.code .pc  { color: #c00; }
+table.code .lv  { color: #c00; }
+table.code .pd  { color: #02c; }
+table.code .ke  { color: #02c; }
+table.code .pt  { color: #c00; }
+table.code .sy  { color: #29F; }
+table.code .c   { color: #486; }
+table.code .s   { color: #46c; }
+table.code .k   { color: #46c; }
+table.code .dl  { color: #000; font-weight: bold; }
+table.code .cl  { color: #111; font-weight: bold; }
+table.code .fu  { color: #111; font-weight: bold; }
+table.code .kw  { color: #111; font-weight: bold; }
+table.code .co  { color: #111; font-weight: bold; }
+table.code .iv  { color: #048; font-weight: bold; }
+table.code .cv  { color: #048; font-weight: bold; }
+table.code .il  { color: #000; background-color: #eee; }
+table.code .idl { color: #000; font-weight: bold;}
+table.code .ta  { color: #508; }
+table.code .an  { color: #859; }
+*/
+
+table.code .af { color:#00C }
+table.code .an { color:#007 }
+table.code .at { color:#f08 }
+table.code .av { color:#700 }
+table.code .aw { color:#C00 }
+table.code .bi { color:#509; font-weight:bold }
+table.code .c  { color:#595; }
+
+table.code .ch { color:#046 }
+table.code .ch .k { color:#046 }
+table.code .ch .dl { color:#039 }
+
+table.code .cl { color:#000; font-weight:bold }
+table.code .co { color:#000; font-weight:bold }
+table.code .cr { color:#0A0 }
+table.code .cv { color:#048; font-weight:bold }
+table.code .df { color:#099; font-weight:bold }
+table.code .di { color:#088; font-weight:bold }
+table.code .dl { color:#000; }
+table.code .do { color:#970 }
+table.code .dt { color:#34b }
+table.code .ds { color:#D42; font-weight:bold }
+table.code .e  { color:#666; font-weight:bold }
+table.code .en { color:#800; font-weight:bold }
+table.code .er { color:#F00; background-color:#FAA }
+table.code .ex { color:#F00; font-weight:bold }
+table.code .fl { color:#039; font-weight:bold }
+table.code .fu { color:#025; font-weight:bold }
+table.code .gv { color:#d70; font-weight:bold }
+table.code .hx { color:#058; font-weight:bold }
+table.code .i  { color:#039; font-weight:bold }
+table.code .ic { color:#B44; font-weight:bold }
+
+table.code .il { color: #000; }
+table.code .il .il { background: #e8e8e8; }
+table.code .il .il .il { background: #ddd; }
+table.code .il .idl { font-weight: bold; color: #000; }
+
+table.code .im { color:#f00; }
+table.code .in { color:#B2B; font-weight:bold }
+table.code .iv { color:#048; font-weight:bold; }
+table.code .la { color:#970; font-weight:bold }
+table.code .lv { color:#963 }
+table.code .oc { color:#40E; font-weight:bold }
+table.code .of { color:#000; font-weight:bold }
+table.code .op { }
+table.code .pc { color:#025; font-weight:bold }
+table.code .pd { color:#369; font-weight:bold }
+table.code .pp { color:#579; }
+table.code .ps { color:#00C; font-weight: bold; }
+table.code .pt { color:#349; font-weight:bold }
+table.code .r, .kw  { color:#A00; font-weight:bold }
+
+table.code .ke { color: #808; }
+table.code .ke .dl { color: #606; }
+table.code .ke .ch { color: #80f; }
+table.code .vl { color: #088; }
+
+table.code .rx { background-color:#fff0ff }
+table.code .rx .k { color:#808 }
+table.code .rx .ch { color:#303 }
+table.code .rx .dl { color:#303 }
+table.code .rx .mod { color:#C2C }
+table.code .rx .fu  { color:#303; font-weight: bold }
+
+table.code .s { background-color:#f0f0ff; color: #369; }
+table.code .s .s { background-color:#f0f0ff; }
+table.code .s .s .s { background-color:#f0f0ff; }
+table.code .s .k { }
+table.code .s .dl { color: #046; }
+
+table.code .sh { background-color:#f0fff0; color:#2B2 }
+table.code .sh .k { }
+table.code .sh .dl { color:#161 }
+
+table.code .sy { color:#A00; }
+table.code .sy .k { color:#c00 }
+table.code .sy .dl { color:#630 }
+
+table.code .ta { color:#070 }
+table.code .tf { color:#070; font-weight:bold }
+table.code .ts { color:#D70; font-weight:bold }
+table.code .ty { color:#339; font-weight:bold }
+table.code .v  { color:#025 }
+table.code .xt { color:#444 }
+
+  
+/* Record list */
+
+table.record-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.record-list thead th {
+  background: #fff url(../../images/menu_item.png) repeat-x;
+  color: #000; border: 1px solid #ccc; border-bottom: 1px solid #bbb;
+}
+table.record-list thead td { color: #000; padding: 2px 0 4px 0;}
+table.record-list thead td input { width: auto; border: 1px solid #999;}
+
+table.record-list tfoot td,
+table.record-list tfoot th { font-style: normal; font-weight: normal; border-top: 1px solid #ccc; padding:4px 0; }
+table.record-list tfoot td { color: #444; }
+table.record-list tfoot th { color: #000; }
+
+
+table.record-list tbody tr:hover td  { background: #ddd; }
+table.record-list tbody td.top,
+table.record-list tbody th.top  { vertical-align:top }
+
+table.record-list tbody td.linked         { padding: 0; }
+table.record-list tbody td.linked a,
+table.record-list tbody td.linked em      { display:block; padding: 4px 5px; }

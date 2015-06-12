@@ -1,0 +1,114 @@
+ja-JP:
+  application:
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    Author: 作者
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    # extensions/retro_blog/models/blog_post.rb
+    # extensions/retro_blog/views/blog/edit.html.erb
+    # extensions/retro_blog/views/blog/index.html.erb
+    # extensions/retro_blog/views/blog/new.html.erb
+    # extensions/retro_blog/views/blog/show.html.erb
+    Blog: ブログ
+
+    # extensions/retro_blog/ext_info.rb
+    "Blog Posts": ブログの投稿
+
+    # extensions/retro_blog/models/blog_post.rb
+    "Blog for %{project}": "%{project}のブログ"
+
+    # extensions/retro_blog/views/blog/edit.html.erb
+    Cancel: 中止
+
+    # extensions/retro_blog/views/blog/_form.html.erb
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    Categories: カテゴリ
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    Comment: コメント
+
+    # extensions/retro_blog/lib/blog_comments_controller.rb
+    "Comment was successfully created.": コメントを作成しました。
+
+    # extensions/retro_blog/lib/blog_comments_controller.rb
+    "Comment was successfully deleted.": コメントを削除しました。
+
+    # extensions/retro_blog/views/blog/_comments.html.erb
+    Comments: コメント
+
+    # extensions/retro_blog/views/blog/_form.html.erb
+    Content: 内容
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    # extensions/retro_blog/views/blog/new.html.erb
+    Create: 作成
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    # extensions/retro_blog/views/blog/new.html.erb
+    "Create Post": 投稿
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/_comment.html.erb
+    # extensions/retro_blog/views/blog/show.html.erb
+    Delete: 削除
+
+    # extensions/retro_blog/views/blog/_comment.html.erb
+    # extensions/retro_blog/views/blog/show.html.erb
+    Edit: 編集
+
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    Email: Eメール
+
+    # extensions/retro_blog/views/blog/_comment_form.html.erb
+    # extensions/retro_blog/views/blog/_comments.html.erb
+    "Leave a comment": コメントを残す
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    "My Posts": 自分の投稿
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    Navigation: ナビゲーション
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    "Post was successfully created.": 投稿しました。
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    "Post was successfully deleted.": 投稿を削除しました。
+
+    # extensions/retro_blog/lib/blog_controller.rb
+    "Post was successfully updated.": 投稿を更新しました。
+
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "Read more": 続きを読む
+
+    # Unknown
+    "Really delete this comment?": 本当にコメントを削除してよいですか？
+
+    # Unknown
+    "Really delete this post?": 本当に投稿を削除してよいですか？
+
+    # extensions/retro_blog/views/blog/_navigation.html.erb
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "Recent Posts": 最近の投稿
+
+    # extensions/retro_blog/views/blog/index.html.erb
+    "There are no posts available.": 投稿がありません。
+
+    # extensions/retro_blog/views/blog/_form.html.erb
+    Title: タイトル
+
+    # extensions/retro_blog/ext_info.rb
+    # extensions/retro_blog/views/blog/edit.html.erb
+    Update: 更新
+
+    # extensions/retro_blog/ext_info.rb
+    View: 表示
+
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "%{count} comments": "%{count}個のコメント"
+
+    # extensions/retro_blog/views/blog/_post.html.erb
+    "%{user} on %{date}": "%{date}に%{user}が投稿"
+

@@ -1,0 +1,31 @@
+<div class="box milestone">
+
+  <div class="quiet small righted float-r">
+    <% unless milestone.due.blank? -%>
+      <%=_ 'Due on' -%>: <%= date_format(milestone.due) %>
+      <%=h "(#{time_interval_in_words(milestone.due)})" unless milestone.completed? %>
+    <% end -%>
+    <%= ' (' + _('completed') + ')' if milestone.completed? %>
+    <%= links_to_edit_and_delete(milestone) %>
+  </div>
+  
+  <h2><%=h milestone.name -%></h2>  
+
+  <% unless milestone.info.blank? -%>
+    <div class="markup info"><%= markup(milestone.info) %></div>
+  <% end -%>
+
+  <div class="progress clearfix">
+    <%= progress_bars(milestone) %>
+  </div>
+
+  <p class="strong small top-5 bottom-5">
+    <%= number_to_percentage milestone.progress_percentages[:resolved], :precision => 0 %> <%=_ 'completed' %>
+    <% if permitted?(:tickets, :view) -%>
+      &mdash;
+      <%=_ 'Tickets' %>:
+      <%= ticket_stats_and_links(milestone) %>
+    <% end -%>
+  </p>
+</div>
+  

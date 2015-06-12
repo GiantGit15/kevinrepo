@@ -1,0 +1,45 @@
+--- 
+retro:
+  id: 1
+  name: Retrospectiva
+  root_path: retrospectiva/
+  info: Retrospectiva project
+  closed: false
+  short_name: retrospectiva
+  repository_id: 1
+  existing_revisions: 
+  - "8"
+  - "9"
+  - "1"
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+  - "6"
+  - "7"
+  existing_tickets: 
+    2: 
+      :summary: A resolved issue
+      :state: 3
+    3: 
+      :summary: Another open
+      :state: 1
+    9: 
+      :summary: Link with '&'
+      :state: 1
+    4: 
+      :summary: Agent's request
+      :state: 1
+sub:
+  id: 2
+  name: Subproject
+  root_path: subproject/
+  info: A subproject
+  closed: false
+  short_name: subproject
+closed:
+  id: 3
+  name: Closed Project
+  info: A closed project
+  closed: true
+  short_name: closed

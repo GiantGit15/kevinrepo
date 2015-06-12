@@ -1,0 +1,157 @@
+ru-RU:
+  application:
+    # extensions/retro_wiki/views/wiki/edit.html.erb
+    Author: Автор
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    "Back in time": "Версия назад"
+
+    # extensions/retro_wiki/views/wiki/edit.html.erb
+    # extensions/retro_wiki/views/wiki/rename.html.erb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    Cancel: Отмена
+
+    # extensions/retro_wiki/views/wiki/edit.html.erb
+    Content: Содержимое
+
+    # extensions/retro_wiki/ext_info.rb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    Create: Создать
+
+    # Missing
+    # extensions/retro_wiki/views/wiki/show.html.erb
+    "Created on %{date} by %{author}": 
+
+    # extensions/retro_wiki/ext_info.rb
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    # extensions/retro_wiki/views/wiki_files/_file.html.erb
+    Delete: Удалить
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    Edit: Исправить
+
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    File: Файл
+
+    # extensions/retro_wiki/lib/wiki_files_controller.rb
+    "File cannot be deleted.": "Файл нельзя удалить."
+
+    # extensions/retro_wiki/lib/wiki_files_controller.rb
+    "File was successfully added.": "Файл успешно добавлен."
+
+    # extensions/retro_wiki/lib/wiki_files_controller.rb
+    "File was successfully deleted.": "Файл успешно удален."
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Files: Вложения
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    "Forward in time": Вперед
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Home: Вернуться
+
+    # extensions/retro_wiki/ext/markup_controller.rb
+    Links: Ссылки
+
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Name: Имя
+
+    # extensions/retro_wiki/models/wiki_page.rb
+    "Nothing changed": "Без изменений"
+
+    # extensions/retro_wiki/lib/wiki_controller.rb
+    "Page was successfully created.": "Страница создана"
+
+    # extensions/retro_wiki/lib/wiki_controller.rb
+    "Page was successfully updated.": "Страница изменена"
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Pages: "Список страниц"
+
+    # extensions/retro_wiki/ext/markup_controller.rb
+    References: Ссылки
+
+    # extensions/retro_wiki/ext_info.rb
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    # extensions/retro_wiki/views/wiki/rename.html.erb
+    Rename: Переименовать
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    Rollback: Откатить
+
+    # extensions/retro_wiki/views/wiki/edit.html.erb
+    Save: Сохранить
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    "Show current": "Актуальная версия"
+
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Size: Размер
+
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    "Sort alphabetically": "В алфавитном порядке"
+
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    "Sort by last update": "В порядке изменений"
+
+    # extensions/retro_wiki/views/wiki/edit.html.erb
+    # extensions/retro_wiki/views/wiki/rename.html.erb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    Title: Заголовок
+
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    Type: Тип
+
+    # extensions/retro_wiki/lib/wiki_files_controller.rb
+    "Unable to download file": "Невозможно загрузить файл"
+
+    # extensions/retro_wiki/ext_info.rb
+    Update: Исправить
+
+    # extensions/retro_wiki/views/wiki/show.html.erb
+    "Updated on %{date} by %{author}": "Последнее обновление от %{date}, корректор %{author}"
+
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    Upload: Загрузить
+
+    # extensions/retro_wiki/views/wiki/show.html.erb
+    Version: Версия
+
+    # extensions/retro_wiki/ext_info.rb
+    View: Просмотр
+
+    # extensions/retro_wiki/lib/wiki_controller.rb
+    # extensions/retro_wiki/models/wiki_page.rb
+    # extensions/retro_wiki/views/wiki/_header.html.erb
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/index.html.erb
+    # extensions/retro_wiki/views/wiki_files/new.html.erb
+    Wiki: Wiki
+
+    # extensions/retro_wiki/ext_info.rb
+    "Wiki Files": "Загрузки на Wiki"
+
+    # extensions/retro_wiki/ext_info.rb
+    "Wiki Pages": "Страницы Wiki"
+
+    # Unknown
+    "Wiki Pages for %{project}": 
+
+    # extensions/retro_wiki/models/wiki_page.rb
+    "Wiki for %{project}": "Wiki проекта %{project}"
+
+    # extensions/retro_wiki/views/wiki/index.html.erb
+    updated: изменено
+
+    # extensions/retro_wiki/lib/wiki_helper.rb
+    "%{count} more": "еще %{count}"
+

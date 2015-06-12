@@ -1,0 +1,10 @@
+.milestones .progress {
+  border: 1px solid #999;
+  background: #fff; 
+  padding: 1px;
+}  
+.milestones .progress div { float:left; } 
+.milestones .resolved { background: #37b; }
+.milestones .in-progress { background: #cde; }
+.milestones .progress img { margin: 0; }
+  

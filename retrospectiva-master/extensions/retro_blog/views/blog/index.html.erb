@@ -1,0 +1,26 @@
+<% @page_title = _('Blog') -%>
+<% include_blog_stylesheet -%>
+<% auto_discover_feed -%>
+<% slim_page -%>
+
+<div class="retro-blog clearfix"> 
+
+  <div class="span-17 append-1">
+  
+    <%= render :partial => 'post', :collection => @blog_posts, :locals => { :preview => true } %>
+
+    <% if @blog_posts.empty? -%>
+      <h4 class="box centered"><%=_ 'There are no posts available.' %></h4>
+    <% end -%>
+
+    <% content_footer('righted') do -%>
+      <%= will_paginate(@blog_posts) %>
+    <% end if @blog_posts.total_pages > 1 -%>
+
+  </div>
+
+  <div class="span-6 last">
+    <%= render :partial => 'navigation' %>
+  </div>
+
+</div>

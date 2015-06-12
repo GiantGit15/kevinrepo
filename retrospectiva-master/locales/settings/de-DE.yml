@@ -1,0 +1,115 @@
+de-DE:
+  settings:
+    general: 
+      label: Allgemein
+      groups: 
+        basic: 
+          label: Grundeinstellungen
+          settings: 
+            site_name: 
+              label: "Name der Webseite"
+            site_url: 
+              label: "URL der Webseite"
+            session_key: 
+              label: "Session Key"
+            locale: 
+              label: 
+            session_expiration: 
+              label: 
+        attachments: 
+          label: 
+          settings: 
+            max_size: 
+              label: 
+        user_management: 
+          label: Benutzerverwaltung
+          settings: 
+            secure_auth: 
+              label: "Sichere Authentifizierung benutzen"
+            account_management: 
+              label: 
+            self_registration: 
+              label: 
+            assign_to_groups: 
+              label: 
+            activation: 
+              label: "Benutzerkonto aktivieren"
+            expiration: 
+              label: 
+    email: 
+      label: E-Mail-Einstellungen
+      groups: 
+        general: 
+          label: Allgemein
+          settings: 
+            from: 
+              label: Absenderadresse
+        smtp: 
+          label: SMTP-Server
+          settings: 
+            address: 
+              label: Adresse
+            port: 
+              label: Port
+            domain: 
+              label: Domain
+            authentication: 
+              label: Authentifizierung
+            user_name: 
+              label: Benutzername
+            password: 
+              label: Passwort
+            enable_starttls_auto: 
+              label: "STARTTLS automatisch erkennen"
+    content: 
+      label: Inhalt
+      groups: 
+        format: 
+          label: 
+          settings: 
+            datetime: 
+              label: "Datum und Uhrzeit"
+            date: 
+              label: Datum
+            time: 
+              label: Zeit
+            changeset_logs: 
+              label: 
+        markup: 
+          label: 
+          settings: 
+            default: 
+              label: 
+            global_ticket_refs: 
+              label: 
+        custom: 
+          label: 
+          settings: 
+            header: 
+              label: 
+            footer: 
+              label: 
+    ticketing: 
+      label: 
+      groups: 
+        subscription: 
+          label: 
+          settings: 
+            subscribe_on_assignment: 
+              label: 
+            encourage_subscription: 
+              label: 
+            notify_author: 
+              label: "Autor benachrichtigen"
+        user_assignment: 
+          label: 
+          settings: 
+            field_type: 
+              label: 
+        author_modifiable: 
+          label: 
+          settings: 
+            tickets: 
+              label: 
+            ticket_changes: 
+              label: 

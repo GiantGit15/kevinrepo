@@ -1,0 +1,44 @@
+Default:
+  id: 1
+  name: Default
+  permissions: |
+    --- 
+    tickets: 
+    - create
+    - update
+    - view
+    - watch
+    content: 
+    - search
+    changesets: 
+    - view
+    milestones: 
+    - view
+    code: 
+    - browse
+other:
+  id: 2
+  name: Other
+  permissions: |
+    --- 
+    tickets: 
+    - view
+    - watch
+all_projects:
+  id: 3
+  name: All Projects
+  permissions: |
+    --- 
+    tickets: 
+    - view
+    - watch
+    milestones: 
+    - create
+  access_to_all_projects: true
+content_manager:
+  id: 4
+  name: Content Manager
+  permissions: |
+    --- 
+    tickets: 
+    - modify
