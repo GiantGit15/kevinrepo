@@ -1,0 +1,107 @@
+   $stationery	: #EBE5CD;
+   $greendew 	: #A9D5C6;
+   $evendarker	: #241616;
+   $sun 		: #F2EAAB;
+   $salmon	 	: #FD9781;
+
+ 
+
+/********************************
+
+Labels Page
+
+********************************/
+
+#labels li {
+    list-style: none;
+    background-color: #fff;
+    padding: 0 .5rem;
+    margin:.5rem 0 0 0;
+}
+
+#labels ul {
+    border: 2px solid #eee;
+    margin-bottom: 0;
+}
+
+#labels .labels li p {
+  float: right;
+}
+
+#labels #tag_submit {
+	display: none;
+}
+
+.new_label form#new_tag  ul, .new_label form#new_tag li {
+    border: none !important;
+    margin-left: 0 !important;
+}
+
+#labels form#new_tag ul {
+  border-left: 1px dashed #eee;
+  margin-top: -2px;
+  border-bottom: none;
+  border-top: none;
+}
+
+#labels form#new_tag li {
+  border: 2px solid #eee;
+  margin: -2px -2px -2px 20px;
+}
+
+#labels input#tag_name, #labels input#name_field {
+  border-bottom: 2px solid #eee !important;
+}
+
+.nested_tags {
+  margin-left: 20px;
+  margin-top: -2px;
+  border-left: 1px dashed #eee;
+}
+
+div#sub-menu {
+  margin-top: 1rem;
+}
+
+li .nested-tags-right{
+	display: none
+}
+
+.expanded > .nested-tags-right{
+	display: block;
+}
+
+
+
+.expanded i {
+  float: right;
+  margin-top: .35rem;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.collapsed i {
+  float: right;
+  margin-top: .35rem;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+
+.nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags .nested_tags {
+  margin-left: 0;
+}
